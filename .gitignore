@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build output
+frontend/dist/
+
+# Environment / secrets
+backend/.env
+frontend/.env.local
+
+# File yang diupload user lewat dashboard admin (jangan ikut di-commit)
+backend/uploads/products/*
+backend/uploads/testimonials/*
+!backend/uploads/products/.gitkeep
+!backend/uploads/testimonials/.gitkeep
+
+# OS/editor files
+.DS_Store
+.vscode/

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "ysl-black-opium-sp",
+    "name": "YSL Black Opium SP",
+    "category": "Oriental",
+    "character": "Perlu dilengkapi lewat dashboard admin",
+    "notes": {
+      "top": [],
+      "middle": [],
+      "base": []
+    },
+    "price": 150000,
+    "sizes": [
+      "30ml",
+      "50ml"
+    ],
+    "image": "/uploads/products/1786416870982-236118157.png",
+    "bestseller": true
+  },
+  {
+    "id": "romance-wish",
+    "name": "Romance Wish",
+    "category": "Floral",
+    "character": "Perlu dilengkapi lewat dashboard admin",
+    "notes": {
+      "top": [],
+      "middle": [],
+      "base": []
+    },
+    "price": 150000,
+    "sizes": [
+      "30ml",
+      "50ml"
+    ],
+    "image": "/images/products/placeholder.jpg",
+    "bestseller": true
+  },
+  {
+    "id": "bbw-pink-chiffon-sp",
+    "name": "BBW Pink Chiffon SP",
+    "category": "Floral",
+    "character": "Perlu dilengkapi lewat dashboard admin",
+    "notes": {
+      "top": [],
+      "middle": [],
+      "base": []
+    },
+    "price": 150000,
+    "sizes": [
+      "30ml",
+      "50ml"
+    ],
+    "image": "/images/products/placeholder.jpg",
+    "bestseller": true
+  },
+  {
+    "id": "dunhill-desire-blue-p",
+    "name": "Dunhill Desire Blue P",
+    "category": "Fresh",
+    "character": "Perlu dilengkapi lewat dashboard admin",
+    "notes": {
+      "top": [],
+      "middle": [],
+      "base": []
+    },
+    "price": 150000,
+    "sizes": [
+      "30ml",
+      "50ml"
+    ],
+    "image": "/images/products/placeholder.jpg",
+    "bestseller": true
+  },
+  {
+    "id": "hawas-ice-edp-sp",
+    "name": "Hawas Ice EDP SP",
+    "category": "Fresh",
+    "character": "Perlu dilengkapi lewat dashboard admin",
+    "notes": {
+      "top": [],
+      "middle": [],
+      "base": []
+    },
+    "price": 150000,
+    "sizes": [
+      "30ml",
+      "50ml"
+    ],
+    "image": "/images/products/placeholder.jpg",
+    "bestseller": false
+  },
+  {
+    "id": "esscada-moon-sparkle",
+    "name": "Esscada Moon Sparkle",
+    "category": "Floral",
+    "character": "Perlu dilengkapi lewat dashboard admin",
+    "notes": {
+      "top": [],
+      "middle": [],
+      "base": []
+    },
+    "price": 150000,
+    "sizes": [
+      "30ml",
+      "50ml"
+    ],
+    "image": "/images/products/placeholder.jpg",
+    "bestseller": false
+  },
+  {
+    "id": "tiziana-terenzi-kirke-sp",
+    "name": "Tiziana Terenzi Kirke SP",
+    "category": "Oriental",
+    "character": "Perlu dilengkapi lewat dashboard admin",
+    "notes": {
+      "top": [],
+      "middle": [],
+      "base": []
+    },
+    "price": 150000,
+    "sizes": [
+      "30ml",
+      "50ml"
+    ],
+    "image": "/images/products/placeholder.jpg",
+    "bestseller": false
+  },
+  {
+    "id": "christian-dior-sauvage-sp",
+    "name": "Christian Dior Sauvage SP",
+    "category": "Woody",
+    "character": "Perlu dilengkapi lewat dashboard admin",
+    "notes": {
+      "top": [],
+      "middle": [],
+      "base": []
+    },
+    "price": 150000,
+    "sizes": [
+      "30ml",
+      "50ml"
+    ],
+    "image": "/images/products/placeholder.jpg",
+    "bestseller": false
+  },
+  {
+    "id": "victoria-secret-aqua-kiss",
+    "name": "Victoria Secret Aqua Kiss",
+    "category": "Fresh",
+    "character": "Perlu dilengkapi lewat dashboard admin",
+    "notes": {
+      "top": [],
+      "middle": [],
+      "base": []
+    },
+    "price": 150000,
+    "sizes": [
+      "30ml",
+      "50ml"
+    ],
+    "image": "/images/products/placeholder.jpg",
+    "bestseller": false
+  },
+  {
+    "id": "hmns-orgasme-sp",
+    "name": "HMNS Orgasme SP",
+    "category": "Oriental",
+    "character": "Perlu dilengkapi lewat dashboard admin",
+    "notes": {
+      "top": [],
+      "middle": [],
+      "base": []
+    },
+    "price": 150000,
+    "sizes": [
+      "30ml",
+      "50ml"
+    ],
+    "image": "/images/products/placeholder.jpg",
+    "bestseller": false
+  },
+  {
+    "id": "taylor-swift",
+    "name": "Taylor Swift",
+    "category": "Floral",
+    "character": "Perlu dilengkapi lewat dashboard admin",
+    "notes": {
+      "top": [],
+      "middle": [],
+      "base": []
+    },
+    "price": 150000,
+    "sizes": [
+      "30ml",
+      "50ml"
+    ],
+    "image": "/images/products/placeholder.jpg",
+    "bestseller": false
+  },
+  {
+    "id": "burberry-her-lady-sp",
+    "name": "Burberry Her/Lady SP",
+    "category": "Floral",
+    "character": "Perlu dilengkapi lewat dashboard admin",
+    "notes": {
+      "top": [],
+      "middle": [],
+      "base": []
+    },
+    "price": 150000,
+    "sizes": [
+      "30ml",
+      "50ml"
+    ],
+    "image": "/images/products/placeholder.jpg",
+    "bestseller": false
+  }
+]

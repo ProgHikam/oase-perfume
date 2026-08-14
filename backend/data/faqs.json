@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "category": "Produk",
+    "question": "Apakah parfum Oase tahan lama?",
+    "answer": "Rata-rata produk Oase bertahan 6-8 jam di kulit, tergantung jenis kulit dan aktivitas. Kami menggunakan bibit parfum berkualitas dengan konsentrasi Eau de Parfum."
+  },
+  {
+    "id": 2,
+    "category": "Produk",
+    "question": "Apakah ada varian ukuran selain yang tertera?",
+    "answer": "Saat ini kami menyediakan ukuran 30ml dan 50ml untuk sebagian besar produk. Untuk kebutuhan ukuran khusus, silakan hubungi kami via WhatsApp."
+  },
+  {
+    "id": 3,
+    "category": "Pengiriman",
+    "question": "Berapa lama waktu pengiriman?",
+    "answer": "Untuk area Jabodetabek biasanya 1-2 hari kerja, sedangkan luar Jabodetabek 3-5 hari kerja tergantung ekspedisi yang dipilih."
+  },
+  {
+    "id": 4,
+    "category": "Pengiriman",
+    "question": "Apakah tersedia COD (Cash on Delivery)?",
+    "answer": "COD tersedia untuk beberapa wilayah tertentu melalui mitra ekspedisi. Detail area COD bisa ditanyakan langsung saat checkout via WhatsApp."
+  },
+  {
+    "id": 5,
+    "category": "Pembayaran",
+    "question": "Metode pembayaran apa saja yang tersedia?",
+    "answer": "Kami menerima transfer bank, e-wallet (OVO, GoPay, Dana), dan QRIS. Detail rekening akan diberikan admin setelah pesanan dikonfirmasi."
+  },
+  {
+    "id": 6,
+    "category": "Retur",
+    "question": "Apakah bisa retur atau tukar produk?",
+    "answer": "Retur bisa dilakukan maksimal 2x24 jam setelah barang diterima, dengan syarat segel belum dibuka dan produk dalam kondisi baik. Ongkos kirim retur ditanggung pembeli kecuali ada kesalahan dari pihak kami."
+  },
+  {
+    "id": 7,
+    "category": "Retur",
+    "question": "Bagaimana jika produk yang diterima rusak/bocor?",
+    "answer": "Segera hubungi kami via WhatsApp maksimal 1x24 jam setelah barang diterima disertai foto/video unboxing, dan kami akan proses penggantian tanpa biaya tambahan."
+  }
+]

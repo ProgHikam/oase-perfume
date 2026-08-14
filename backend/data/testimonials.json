@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Salsa Amelia",
+    "product": "Oase Bunga Malam",
+    "rating": 5,
+    "review": "Aromanya tahan lama dan pas banget sama karakter aku yang suka hal-hal lembut. Suka banget!",
+    "photo": null,
+    "documentationPhoto": "/uploads/testimonials/1786416892976-100207879.png"
+  },
+  {
+    "id": 2,
+    "name": "Bagas Pratama",
+    "product": "Oase Kayu Senja",
+    "rating": 5,
+    "review": "Wanginya maskulin tapi ga nyengat. Cocok dipakai kerja maupun santai bareng teman.",
+    "photo": null,
+    "documentationPhoto": null
+  },
+  {
+    "id": 3,
+    "name": "Rani Kusuma",
+    "product": "Oase Embun Pagi",
+    "rating": 4,
+    "review": "Seger banget, cocok buat dipakai pagi hari. Pengiriman juga cepat dan admin ramah.",
+    "photo": null,
+    "documentationPhoto": null
+  }
+]

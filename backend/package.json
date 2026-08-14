@@ -1,0 +1,17 @@
+{
+  "name": "oase-perfume-backend",
+  "version": "1.0.0",
+  "description": "Backend API untuk Oase Perfume - menyediakan data produk, testimoni, dan promo untuk halaman Home",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

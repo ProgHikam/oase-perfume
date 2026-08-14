@@ -1,0 +1,28 @@
+[
+  {
+    "id": "promo-bulan-ini",
+    "title": "Promo Bulan Ini",
+    "description": "Diskon 15% untuk pembelian 2 botol parfum, berlaku sampai akhir bulan.",
+    "code": "OASE15",
+    "validUntil": "2026-08-31",
+    "terms": [
+      "Berlaku untuk semua varian aroma",
+      "Tidak dapat digabung dengan promo lain",
+      "Berlaku untuk pemesanan via WhatsApp maupun beli langsung di toko"
+    ],
+    "active": true
+  },
+  {
+    "id": "gratis-ongkir",
+    "title": "Gratis Ongkir Jabodetabek",
+    "description": "Gratis ongkos kirim untuk pemesanan minimal Rp300.000 area Jabodetabek.",
+    "code": "OASEFREEONGKIR",
+    "validUntil": "2026-08-15",
+    "terms": [
+      "Minimal transaksi Rp300.000 setelah diskon",
+      "Hanya berlaku untuk pengiriman area Jabodetabek",
+      "Estimasi pengiriman 1-2 hari kerja"
+    ],
+    "active": true
+  }
+]
