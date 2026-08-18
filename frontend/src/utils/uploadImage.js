@@ -57,6 +57,23 @@ export async function uploadImage(file, type, token) {
   }
 
   const res = await fetch(`${API_BASE_URL}/api/upload/${type}`, {
-    // ... sisanya sama seperti sebelumnya
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${token}`,
+    },
+    body: JSON.stringify({ image: base64, filename: file.name }),
   });
+
+  if (res.status === 401) {
+    throw new Error("Sesi login sudah berakhir. Silakan login ulang.");
+  }
+
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(err.message || "Upload foto gagal.");
+  }
+
+  const data = await res.json();
+  return data.url;
 }
