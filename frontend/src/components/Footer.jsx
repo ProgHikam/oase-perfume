@@ -52,7 +52,7 @@ function Footer() {
         </div>
       </div>
 
-      <p className="mt-8 text-center text-xs opacity-60">
+      <p className="mt-8 text-center text-xs opacity-60"> by @hikammiv
         © {new Date().getFullYear()} Oase Perfume. Seluruh hak cipta dilindungi.
         {" · "}
         <Link to="/admin/login" className="opacity-70 hover:opacity-100 hover:text-accent">
