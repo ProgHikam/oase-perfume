@@ -38,10 +38,15 @@ export default async function handler(req, res) {
   const ext = mimeType.split("/")[1] || "jpg";
   const safeName = `${type}/${Date.now()}-${Math.round(Math.random() * 1e9)}.${ext}`;
 
-  const blob = await put(safeName, buffer, {
-    access: "public",
-    contentType: mimeType,
-  });
+  try {
+    const blob = await put(safeName, buffer, {
+      access: "public",
+      contentType: mimeType,
+    });
 
-  return res.status(201).json({ url: blob.url });
+    return res.status(201).json({ url: blob.url });
+  } catch (error) {
+    console.error("Vercel Blob upload failed:", error);
+    return res.status(500).json({ message: `Gagal mengunggah ke Vercel Blob: ${error.message}` });
+  }
 }
