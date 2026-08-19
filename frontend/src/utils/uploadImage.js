@@ -4,8 +4,10 @@ const MAX_DIMENSION = 1600; // px - lebih dari cukup untuk tampilan web
 const JPEG_QUALITY = 0.82;
 
 // Foto dari galeri HP sering berukuran besar (3-10MB), padahal Vercel punya
-// batas keras 4.5MB per request. Supaya upload TIDAK PERNAH gagal karena
-// ukuran, foto dikecilkan dulu di browser sebelum dikirim.
+// batas keras 4.5MB per request (base64 bikin ukuran ~33% lebih besar dari
+// file asli, jadi limitnya lebih ketat dari kelihatannya). Supaya upload
+// TIDAK PERNAH gagal karena ukuran, foto dikecilkan dulu di browser sebelum
+// dikirim - resolusi maksimal 1600px & dikompres jadi JPEG.
 function resizeImage(file) {
   return new Promise((resolve, reject) => {
     const img = new Image();
@@ -49,14 +51,33 @@ export async function uploadImage(file, type, token) {
     throw new Error("File harus berupa foto (JPG, PNG, WEBP, atau GIF).");
   }
 
-  const base64 = await resizeImage(file);  // <- ganti fileToBase64() jadi resizeImage()
+  const base64 = await resizeImage(file);
 
+  // Cek ukuran SETELAH dikecilkan (harusnya nyaris tidak pernah kena, tapi
+  // tetap dijaga untuk foto dengan detail sangat tinggi).
   const approxBytes = base64.length * 0.75;
   if (approxBytes > 4 * 1024 * 1024) {
     throw new Error("Foto masih terlalu besar setelah dikompres. Coba pakai foto lain.");
   }
 
   const res = await fetch(`${API_BASE_URL}/api/upload/${type}`, {
-    // ... sisanya sama seperti sebelumnya
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${token}`,
+    },
+    body: JSON.stringify({ image: base64, filename: file.name }),
   });
+
+  if (res.status === 401) {
+    throw new Error("Sesi login sudah berakhir. Silakan login ulang.");
+  }
+
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(err.message || "Upload foto gagal.");
+  }
+
+  const data = await res.json();
+  return data.url;
 }

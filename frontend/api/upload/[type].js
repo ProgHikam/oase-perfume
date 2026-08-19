@@ -2,16 +2,6 @@ import { put } from "@vercel/blob";
 import { requireAuth } from "../_lib/auth.js";
 import { applyCors } from "../_lib/cors.js";
 
-// Vercel serverless function butuh body size limit lebih besar dari default 1mb
-// karena foto dikirim sebagai base64 (ukurannya jadi ~33% lebih besar dari file asli).
-export const config = {
-  api: {
-    bodyParser: {
-      sizeLimit: "6mb",
-    },
-  },
-};
-
 export default async function handler(req, res) {
   if (applyCors(req, res)) return;
 
